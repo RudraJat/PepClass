@@ -6,3 +6,4 @@ console.log(x===y); // it'll check both value and datatype
 
 console.log(x!=y);  // it'll check only value
 console.log(x!==y); // it'll check both value and datatype
+
