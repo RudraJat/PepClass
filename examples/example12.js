@@ -5,5 +5,9 @@ const add =(a,b)=>{
     return Number(a)+Number(b);
 }
 
+const multiply =(a,b)=> Number(a)*Number(b);
+
 const r = add(5,19);
+const r2 = multiply(5,19);
 console.log(r);
+console.log(r2);
