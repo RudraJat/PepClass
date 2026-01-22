@@ -1,6 +1,7 @@
 let userRole="admin";
 let isAuthenticated=true;
 
+function checkAccess(role, authStatus){
 if(userRole==="admin" && isAuthenticated){
     console.log("Welcome to the admin dashboard");
 }else if(!isAuthenticated){
@@ -8,3 +9,6 @@ if(userRole==="admin" && isAuthenticated){
 }else if(userRole!=="admin" && isAuthenticated){
     console.log("Access denied")
 }
+}
+
+checkAccess(userRole, isAuthenticated);
